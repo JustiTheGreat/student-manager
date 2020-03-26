@@ -4,9 +4,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Text?>
+<?import java.net.URL?>
 <GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" vgap="10" prefWidth="600" prefHeight="400"
           xmlns="http://javafx.com/javafx/8.0.172-ea"
-          fx:controller="loose.oose.fis.lab.student.manager.controllers.LoginController">
+          fx:controller="loose.oose.fis.lab.student.manager.controllers.LoginController" styleClass="root-pane">
     <padding>
         <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
     </padding>
@@ -25,4 +26,7 @@
     </HBox>
 
     <Text fx:id="loginMessage" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <stylesheets>
+        <URL value="@../css/styles.css"></URL>
+    </stylesheets>
 </GridPane>
